@@ -11,6 +11,12 @@ ul {
 a {
   text-decoration: none;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 /* header */
 
 /* top line logo */
