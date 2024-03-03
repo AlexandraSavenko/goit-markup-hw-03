@@ -50,6 +50,9 @@ nav,
   display: flex;
   flex-direction: row;
 }
+.top-line {
+  padding: 24px 156px;
+}
 /* top line logo */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -136,6 +139,9 @@ button:focus {
   cursor: pointer;
 }
 /* Section 2 */
+.section-two {
+  padding: 120px 156px;
+}
 .section-two-header {
   display: none;
 }
