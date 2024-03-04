@@ -249,6 +249,7 @@ button:focus {
 /* Footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-content {
   max-width: 264px;
@@ -262,6 +263,7 @@ button:focus {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-partlogo {
   color: #f4f4fd;
