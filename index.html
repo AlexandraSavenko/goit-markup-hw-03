@@ -17,34 +17,34 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- header -->
-    <header class="top-line">
-      <div class="container">
-        <!-- site head Navigation bar -->
-        <nav>
-          <!-- top line logo -->
-          <a class="logo" href
-            >Web<span class="partlogo-studio">Studio</span></a
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="header-logo" href
+            >Web<span class="header-partlogo">Studio</span></a
           >
-          <!-- top line menu -->
-          <ul class="menu-nav">
-            <li>
-              <a class="nav-content" href="./index.html">Studio</a>
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="./index.html">Studio</a>
             </li>
-            <li><a class="nav-content" href="">Portfolio</a></li>
-            <li><a class="nav-content" href="">Contacts</a></li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="">Portfolio</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
-        <!-- Contacts -->
+        <!-- CONTACTS -->
         <address class="header-contacts">
-          <ul class="contacts-list">
-            <li>
-              <a class="contacts" href="mailto:info@devstudio.com"
+          <ul class="header-contacts-list">
+            <li class="header-contacts-item">
+              <a class="header-contacts-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
-              <a class="contacts" href="tel:+110001111111">
+            <li class="header-contacts-item">
+              <a class="header-contacts-link" href="tel:+110001111111">
                 +11 (000) 111-11-11</a
               >
             </li>
@@ -56,46 +56,44 @@
     <main>
       <!-- Section 1 Hero-image -->
       <section class="hero-image">
-        <div class="container">
-          <h1 class="header-one">Effective Solutions for Your Business</h1>
+        <div class="container hero-container">
+          <!-- <div class="hero-container"> -->
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <!-- button -->
-          <button type="button" class="button-text">Order Service</button>
+          <button type="button" class="hero-button">Order Service</button>
+          <!-- </div> -->
         </div>
       </section>
       <!-- Section 2 -->
       <section class="section-two">
         <div class="container">
-          <h2 class="section-two-header">Advantages</h2>
-          <!-- Features -->
-          <ul class="features">
-            <!-- feature1 -->
-            <li class="features-content">
-              <h3 class="li-header">Strategy</h3>
-              <p class="li-text">
+          <h2 class="visually-hidden">Advantages</h2>
+          <ul class="section-two-list">
+            <li class="section-two-item">
+              <h3 class="section-two-subtitle">Strategy</h3>
+              <p class="section-two-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <!-- feature2 -->
-            <li class="features-content">
-              <h3 class="li-header">Punctuality</h3>
-              <p class="li-text">
+            <li class="section-two-item">
+              <h3 class="section-two-subtitle">Punctuality</h3>
+              <p class="section-two-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <!-- feature3 -->
-            <li class="features-content">
-              <h3 class="li-header">Diligence</h3>
-              <p class="li-text">
+            <li class="section-two-item">
+              <h3 class="section-two-subtitle">Diligence</h3>
+              <p class="section-two-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <!-- feature4 -->
-            <li class="features-content">
-              <h3 class="li-header">Technologies</h3>
-              <p class="li-text">
+
+            <li class="section-two-item">
+              <h3 class="section-two-subtitle">Technologies</h3>
+              <p class="section-two-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -103,12 +101,10 @@
           </ul>
         </div>
       </section>
-      <!-- Section 3 -->
       <section class="section-three">
         <div class="container">
           <h2 class="section-three-header">Our Team</h2>
           <ul class="section-three-content">
-            <!-- Team Card 1 -->
             <li class="team-card">
               <img
                 src="./images/Mark.jpg"
