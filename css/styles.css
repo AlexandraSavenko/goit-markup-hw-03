@@ -223,7 +223,6 @@ img {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 72px;
-  text-align: center;
 }
 .section-three-list {
   display: flex;
@@ -242,11 +241,10 @@ img {
   border-radius: 0 0 4px 4px;
   width: calc((100% - 3 * 24px) / 4);
 }
-.section-three-image {
-  margin-bottom: 32px;
-}
 .section-three-subtitle {
   margin-bottom: 8px;
+  text-align: center;
+  text-align: center;
 }
 .section-three-text {
   font-weight: 400;
@@ -255,7 +253,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
 }
 /* Section 4 */
 .sf-container {
