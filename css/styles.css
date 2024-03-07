@@ -212,7 +212,7 @@ img {
 /* Section 3 */
 .section-three {
   background-color: #f4f4fd;
-  padding: 120px;
+  padding: 120px 0;
 }
 .section-three-title {
   font-weight: 700;
@@ -227,6 +227,9 @@ img {
 .section-three-list {
   display: flex;
   gap: 24px;
+}
+.section-three-card-c {
+  padding: 32px 0;
 }
 .section-three-item {
   background: #fff;
