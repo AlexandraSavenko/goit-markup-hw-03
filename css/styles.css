@@ -244,6 +244,8 @@ img {
   margin-bottom: 32px;
 }
 /* Section 4 */
+.sf-container {
+}
 
 .section-four-title {
   font-weight: 700;
@@ -253,7 +255,8 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
+  /* padding-bottom: 72px; */
 }
 .section-four-list {
   display: flex;
@@ -280,10 +283,11 @@ img {
   color: #434455;
 }
 .section-four {
-  padding: 120px;
+  padding: 120px 0 120px 0;
 }
 .dection-four-item-c {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 /* Footer */
 .footer {
